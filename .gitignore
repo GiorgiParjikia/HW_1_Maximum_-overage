@@ -3,6 +3,9 @@ Thumbs.db*
 HELP.md
 .gradle
 build/
+!build/reports/jacoco/test/html/index.html
+!build/reports/jacoco/test/html/jacoco-sessions.html
+
 
 ### STS ###
 .apt_generated

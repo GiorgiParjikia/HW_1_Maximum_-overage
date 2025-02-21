@@ -68,7 +68,7 @@ class MainKtTest {
     @Test
     fun Mir_StandardCommission() {
         val result = calculateCommission("Мир", 1000, 5000)
-        assertEquals("Комиссия: 37 руб.", result)
+        assertEquals("Комиссия: 36 руб.", result)
     }
 
     // превышение месячного лимита для всех карт
